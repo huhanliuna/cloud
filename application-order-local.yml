@@ -6,7 +6,7 @@ eureka:
 
 spring:
   application:
-    name: order
+    name: order-consumer-service
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
