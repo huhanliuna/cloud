@@ -1,8 +1,8 @@
 env: test3000000
 
 spring:
-  application:
-    name: order-consumer-service
+#   application:
+#     name: order-consumer-service
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
