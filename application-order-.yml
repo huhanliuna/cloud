@@ -2,7 +2,7 @@ env: test8
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://localhost:7001/eureka
 spring:
   application:
     name: order
@@ -11,13 +11,12 @@ spring:
     username: root
     password: 
     url: jdbc:mysql://127.0.0.1/db2019?characterEncoding=utf-8&useSSL=false
-  rabbitmq:
-    host: 10.1.100.34
-    port: 5672
-    username: test
-    password: 123456
-  redis:
-    host: 10.1.100.34
+#   rabbitmq:
+#     host: 10.1.100.34
+#     port: 5672
+#     username: test
+#     password: 123456
+  redis: 
+    host: 127.0.0.1
     port: 6379
-    password: xc123#
-
+    password: 
